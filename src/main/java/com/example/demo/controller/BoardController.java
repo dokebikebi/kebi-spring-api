@@ -1,10 +1,7 @@
 package com.example.demo.controller;
 
-import com.azure.core.annotation.Post;
 import com.example.demo.database.board.Board;
-import com.example.demo.database.user.Users;
 import com.example.demo.service.BoardService;
-import com.example.demo.service.UsersService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
